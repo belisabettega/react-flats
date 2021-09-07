@@ -14,6 +14,7 @@ class FlatList extends Component {
       currency={flat.priceCurrency}
       lat={flat.lat}
       lng={flat.lng}
+      map={this.props.mapFunction}
       />)}
     </div>
   );
